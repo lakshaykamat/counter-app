@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 *{
+    font-family: 'Ubuntu Condensed', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
