@@ -1,18 +1,18 @@
-let incrementOperation = document.getElementById('count').innerText = 0;
-let count = document.getElementById('count');
+let countUp = document.getElementById('count-txt').innerText = 0;
+let count = document.getElementById('count-txt');
 let para = document.getElementById('para-id');
-// Increment Function
+//countUp Function
 function increment() {
-    incrementOperation += 1;
-    count.innerText = incrementOperation;
+  countUp += 1;
+    count.innerText = countUp;
 }
 // Decrement Function
 function decrement() {
-    incrementOperation -= 1;
-    count.innerText = incrementOperation;
+  countUp -= 1;
+    count.innerText = countUp;
 }
 //Save function
 function save() {
-    let paraString = incrementOperation + " - "
+    let paraString =countUp + " - "
     para.textContent += paraString;
 }
