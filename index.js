@@ -1,12 +1,18 @@
-let incrementOperation = document.getElementById('count').innerText  = 0;
+let incrementOperation = document.getElementById('count').innerText = 0;
 let count = document.getElementById('count');
+let para = document.getElementById('para-id');
 // Increment Function
-function increment(){
-    incrementOperation=  incrementOperation + 1;
-count.innerText =  incrementOperation;
+function increment() {
+    incrementOperation += 1;
+    count.innerText = incrementOperation;
 }
 // Decrement Function
-function decrement(){
-    incrementOperation =  incrementOperation - 1;
- count.innerText =   incrementOperation 
+function decrement() {
+    incrementOperation -= 1;
+    count.innerText = incrementOperation;
+}
+//Save function
+function save() {
+    let paraString = incrementOperation + " - "
+    para.textContent += paraString;
 }
